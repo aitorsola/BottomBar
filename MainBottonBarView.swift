@@ -1,6 +1,5 @@
 //
 //  MainButtonBarView.swift
-//  Initfy
 //
 //  Created by Aitor Personal on 14/10/2018.
 //  Copyright © 2018 Aitor. All rights reserved.
