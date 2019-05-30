@@ -12,7 +12,6 @@
 		9B05B388229FCA350006BEE0 /* MainBottonBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B05B386229FCA350006BEE0 /* MainBottonBarView.xib */; };
 		9B05B389229FCA350006BEE0 /* MainBottonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B05B387229FCA350006BEE0 /* MainBottonBarView.swift */; };
 		9B05B38C229FCBB20006BEE0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B05B38B229FCBB20006BEE0 /* Extensions.swift */; };
-		9B05B38E229FCC030006BEE0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9B05B38D229FCC030006BEE0 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		9B05B386229FCA350006BEE0 /* MainBottonBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainBottonBarView.xib; sourceTree = "<group>"; };
 		9B05B387229FCA350006BEE0 /* MainBottonBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBottonBarView.swift; sourceTree = "<group>"; };
 		9B05B38B229FCBB20006BEE0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		9B05B38D229FCC030006BEE0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BD8511945283FBC29362B0F3 /* Pods-BottomBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomBar.debug.xcconfig"; path = "Target Support Files/Pods-BottomBar/Pods-BottomBar.debug.xcconfig"; sourceTree = "<group>"; };
 		F91E1329FA11152B097152A9 /* Pods_BottomBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottomBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -60,7 +58,6 @@
 		9B05B371229FCA240006BEE0 = {
 			isa = PBXGroup;
 			children = (
-				9B05B38D229FCC030006BEE0 /* LICENSE */,
 				9B05B38A229FCBA70006BEE0 /* extensions */,
 				9B05B387229FCA350006BEE0 /* MainBottonBarView.swift */,
 				9B05B386229FCA350006BEE0 /* MainBottonBarView.xib */,
@@ -166,7 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B05B38E229FCC030006BEE0 /* LICENSE in Resources */,
 				9B05B388229FCA350006BEE0 /* MainBottonBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
