@@ -22,6 +22,7 @@ public struct BottomBarItem {
     public init(image: UIImage, onTap: (() -> Void)?) {
         self.image = image
         self.onTap = onTap
+        
     }
 }
 

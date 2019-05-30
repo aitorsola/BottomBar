@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/swift,xcode,cocoapods,objective-c
-# Edit at https://www.gitignore.io/?templates=swift,xcode,cocoapods,objective-c
+# Created by https://www.gitignore.io/api/swift,xcode,swiftpm,cocoapods,objective-c,swiftpackagemanager
+# Edit at https://www.gitignore.io/?templates=swift,xcode,swiftpm,cocoapods,objective-c,swiftpackagemanager
 
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
@@ -45,13 +45,13 @@ xcuserdata/
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-# Pods/
+ Pods/
 # Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+ *.xcworkspace
 
 # Carthage
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+ Carthage/Checkouts
 
 Carthage/Build
 
@@ -88,22 +88,22 @@ playground.xcworkspace
 
 # Swift Package Manager
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
+ Packages/
+ Package.pins
+ Package.resolved
 .build/
 
 # CocoaPods
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-# Pods/
+ Pods/
 # Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+ *.xcworkspace
 
 # Carthage
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+ Carthage/Checkouts
 
 
 # fastlane
@@ -117,6 +117,13 @@ playground.xcworkspace
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
 
+
+### SwiftPackageManager ###
+Packages
+xcuserdata
+*.xcodeproj
+
+### SwiftPM ###
 
 ### Xcode ###
 # Xcode
@@ -136,4 +143,4 @@ playground.xcworkspace
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.gitignore.io/api/swift,xcode,cocoapods,objective-c
+# End of https://www.gitignore.io/api/swift,xcode,swiftpm,cocoapods,objective-c,swiftpackagemanager
