@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainBottonBarView" customModule="ServerTests" customModuleProvider="target">
+            <connections>
+                <outlet property="otMainIconStackView" destination="i6D-zd-HgN" id="8of-Ds-JKo"/>
+                <outlet property="otView" destination="iN0-l3-epB" id="YpC-IJ-PSf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnP-WH-dkQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mmu-eH-i44">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCv-cl-X6Z">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ix4-4g-rDx">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <vibrancyEffect>
+                                    <blurEffect style="light"/>
+                                </vibrancyEffect>
+                            </visualEffectView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RCv-cl-X6Z" secondAttribute="bottom" id="3BW-k2-GDR"/>
+                            <constraint firstItem="RCv-cl-X6Z" firstAttribute="top" secondItem="mmu-eH-i44" secondAttribute="top" id="7z2-ev-7w3"/>
+                            <constraint firstItem="RCv-cl-X6Z" firstAttribute="leading" secondItem="mmu-eH-i44" secondAttribute="leading" id="Lyr-lK-d1r"/>
+                            <constraint firstAttribute="trailing" secondItem="RCv-cl-X6Z" secondAttribute="trailing" id="gCI-Kg-15t"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="i6D-zd-HgN">
+                    <rect key="frame" x="15" y="8" width="345" height="51"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hnP-WH-dkQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4kw-Pd-uHh"/>
+                <constraint firstAttribute="trailing" secondItem="hnP-WH-dkQ" secondAttribute="trailing" id="8hz-wT-uQJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="i6D-zd-HgN" secondAttribute="trailing" constant="15" id="Fvw-Hi-hTh"/>
+                <constraint firstItem="i6D-zd-HgN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="Iaa-UP-GQ8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="i6D-zd-HgN" secondAttribute="bottom" constant="8" id="bcS-fH-PxO"/>
+                <constraint firstItem="i6D-zd-HgN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="j8X-Ut-axh"/>
+                <constraint firstItem="hnP-WH-dkQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="l7K-Zc-XUK"/>
+                <constraint firstAttribute="bottom" secondItem="hnP-WH-dkQ" secondAttribute="bottom" id="oUC-Cs-4uF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="417.8410794602699"/>
+        </view>
+    </objects>
+</document>
