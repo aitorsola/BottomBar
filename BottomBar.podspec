@@ -10,12 +10,14 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://www.nothing.com/BottomBar"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
+
   spec.author             = { "Aitor Personal" => "" }
 
   spec.social_media_url   = "https://twitter.com/aitornillo"
+
   spec.platform     = :ios, "11.0"
 
-  spec.source       = { :path => "../BottomBar"}
+  spec.source       = { :git => "https://github.com/aitorsola/BottomBar.git"}
 
   spec.source_files  = "**/*.{h,m,swift,xib}"
   spec.exclude_files = "Pods"
