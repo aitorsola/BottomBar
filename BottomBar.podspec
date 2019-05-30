@@ -8,15 +8,16 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "http://www.nothing.com/BottomBar"
+  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Aitor Personal" => "" }
-
-  spec.source       = { :git => "https://github.com/aitorsola/BottomBar.git", :tag => "master" }
 
   spec.social_media_url   = "https://twitter.com/aitornillo"
   spec.platform     = :ios, "11.0"
 
-  spec.source_files = 'BottomBar/**/*.{h,m,swift,xib}'
+  spec.source       = { :path => "../BottomBar"}
+
+  spec.source_files  = "**/*.{h,m,swift,xib}"
   spec.exclude_files = "Pods"
 
   spec.swift_version = '5.0.1'
