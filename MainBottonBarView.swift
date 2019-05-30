@@ -69,6 +69,7 @@ public class MainBottonBarView: UIView, NibOwnerLoadable {
                     self?.impact.impactOccurred()
                 }
                 item.onTap?()
+                
             }
         }
     }
