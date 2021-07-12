@@ -7,7 +7,7 @@
 
 import UIKit
 import Reusable
-import SnapKit
+import SnapKi
 
 public struct BottomBarItem {
   var image: UIImage
